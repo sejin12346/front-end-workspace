@@ -51,22 +51,22 @@ Chrome, Fire Fox, Safari, Opera, Edge, Brave..
 2. 여러 개의 속성을 사용할 수 있다.
 
 ```html
-<img src="/" width="100">
+<img src="/" width="100" />
 ```
 
 3. 하나의 속성에는 값을 한 개만 지정 가능하다.
 
 ```html
-<img src="/" width="100,200">
+<img src="/" width="100,200" />
 <!-- 작성 불가 -->
 ```
 
 4. 속성값은 원래의 이름이 한글인 경우가 아니면 사용 불가능하다.
 
 ```html
-<img src="/" width="삼백">
+<img src="/" width="삼백" />
 <!-- 작성 불가 -->
-<meta name="keywords" content="영화, 한국영화, 외국영화">
+<meta name="keywords" content="영화, 한국영화, 외국영화" />
 <!-- 예외적인 경우 -->
 ```
 
@@ -75,8 +75,8 @@ Chrome, Fire Fox, Safari, Opera, Edge, Brave..
 ```html
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body></body>
+  <head></head>
+  <body></body>
 </html>
 ```
 
@@ -93,13 +93,15 @@ Chrome, Fire Fox, Safari, Opera, Edge, Brave..
 ## meta 태그
 
 ```html
-<meta charset="UTF-8"> <!-- 문자 세트 지정 -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 모바일 기기 ``>
+<meta charset="UTF-8" />
+<!-- 문자 세트 지정 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- 모바일 기기 ``>
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <!-- 인터넷 익스플로러 브라우저 -->
 
 <!-- 검색 엔진 -->
-<meta name="Keywords" contnet="키워드1, 키워드2">
-<meta name="description" content="문서 설명">
-<meta name="author" content="문서 작성자">
+<meta name="Keywords" contnet="키워드1, 키워드2" />
+<meta name="description" content="문서 설명" />
+<meta name="author" content="문서 작성자" />
 ```
